@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1150px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 24px;
+    background-color: #f2f2fa;
+    font-family: Poppins, Poppins-SemiBold;
+    font-weight: 600;
+    font-size:medium;
+
+}
+header div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px 24px;
+    align-items: center;
+}
+.mensagem-entrada h1{
+    font-family: Rubik, Rubik-Medium;
+    font-weight: 500;
+    line-height: 72px;
+    font-size: 64px;
+    background: linear-gradient(90.04deg,#e76b83 .02%, #7484ed);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.mensagem-entrada{
+    margin-top: 50px; 
+    text-align: center;
+
+}
+.mensagem-entrada h2{
+    font-family: Rubik, Rubik-Medium;
+    font-weight: 500;
+    line-height: 72px;
+    font-size: 64px;
+
+}
+.mensagem-entrada p {
+    font-family: Poppins, Poppins-regular;
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+header div ul button{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 12px;
+}
+
+.buttons-desgn button{
+    padding: 20px 32px;
+    border-radius: 40px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+    
+
+}
+.buttons-desgn{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 28px;
+    tab-size: 4;
+
+}
+.buttons-desgn .butonexp {
+    background: linear-gradient(90deg, #f0762b, #e34d98);
+    color: white;
+    border-style: hidden;
+}
+.parte2 h1 {
+    font-family: Rubik, Rubik-Medium;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 56px;
+    font-size: 48px;
+    color: #22053d;
+    color: #10001f;
+    margin-bottom: 24px;
+    margin-top: 100px;
+}
+.parte2{
+    text-align: center;
+}
+.parte2 p {
+    font-family: Poppins, Poppins-regular;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.buttons-desgn button:hover {
+    Background: #10001f;
+}
